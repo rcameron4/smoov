@@ -1,4 +1,4 @@
-pip install numpy pandas matplotlib scipy yfinance
+
 import numpy as np
 from scipy.stats import norm
 
