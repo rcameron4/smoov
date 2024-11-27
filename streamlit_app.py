@@ -28,6 +28,10 @@ def black_scholes(S, K, T, r, sigma, option_type="call"):
 
 import yfinance as yf
 
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 # Example: Fetching historical data for Apple (AAPL)
 ticker = "AAPL"
 data = yf.download(ticker, start="2023-01-01", end="2024-01-01")
